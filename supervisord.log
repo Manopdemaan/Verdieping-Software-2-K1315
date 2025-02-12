@@ -1,0 +1,198 @@
+2025-02-12 12:22:27,073 INFO supervisord started with pid 1
+2025-02-12 12:22:28,077 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:22:28,079 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:22:28,081 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:22:28,084 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:22:28,092 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:22:29,104 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:22:29,105 INFO spawned: 'nginx' with pid 12
+2025-02-12 12:22:29,107 INFO spawned: 'horizon' with pid 13
+2025-02-12 12:22:29,109 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:22:29,118 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:22:31,124 INFO spawned: 'nginx' with pid 14
+2025-02-12 12:22:31,126 INFO spawned: 'horizon' with pid 15
+2025-02-12 12:22:31,141 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:22:31,142 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:22:34,152 INFO spawned: 'nginx' with pid 16
+2025-02-12 12:22:34,154 INFO spawned: 'horizon' with pid 17
+2025-02-12 12:22:34,157 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:22:34,163 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:22:34,165 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:22:35,171 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:26:58,297 INFO reaped unknown pid 56 (exit status 0)
+2025-02-12 12:30:14,193 WARN received SIGQUIT indicating exit request
+2025-02-12 12:30:14,195 INFO waiting for php-fpm to die
+2025-02-12 12:30:16,218 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:30:16,556 INFO supervisord started with pid 1
+2025-02-12 12:30:17,563 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:30:17,567 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:30:17,570 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:30:17,577 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:30:17,866 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:30:18,868 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:30:18,869 INFO spawned: 'nginx' with pid 14
+2025-02-12 12:30:18,871 INFO spawned: 'horizon' with pid 15
+2025-02-12 12:30:18,874 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:30:19,140 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:30:21,152 INFO spawned: 'nginx' with pid 18
+2025-02-12 12:30:21,154 INFO spawned: 'horizon' with pid 19
+2025-02-12 12:30:21,161 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:30:21,407 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:30:24,423 INFO spawned: 'nginx' with pid 22
+2025-02-12 12:30:24,425 INFO spawned: 'horizon' with pid 23
+2025-02-12 12:30:24,428 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:30:24,665 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:30:24,670 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:30:25,675 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:32:09,084 WARN received SIGQUIT indicating exit request
+2025-02-12 12:32:09,085 INFO waiting for php-fpm to die
+2025-02-12 12:32:11,092 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:32:11,475 INFO supervisord started with pid 1
+2025-02-12 12:32:12,478 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:32:12,480 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:32:12,482 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:32:12,485 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:32:12,744 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:32:13,748 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:32:13,749 INFO spawned: 'nginx' with pid 14
+2025-02-12 12:32:13,750 INFO spawned: 'horizon' with pid 15
+2025-02-12 12:32:13,753 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:32:14,002 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:32:16,010 INFO spawned: 'nginx' with pid 18
+2025-02-12 12:32:16,012 INFO spawned: 'horizon' with pid 19
+2025-02-12 12:32:16,015 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:32:16,247 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:32:19,270 INFO spawned: 'nginx' with pid 22
+2025-02-12 12:32:19,275 INFO spawned: 'horizon' with pid 23
+2025-02-12 12:32:19,283 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:32:19,536 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:32:19,539 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:32:20,546 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:32:54,707 WARN received SIGQUIT indicating exit request
+2025-02-12 12:32:54,710 INFO waiting for php-fpm to die
+2025-02-12 12:32:56,739 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:33:26,188 INFO supervisord started with pid 1
+2025-02-12 12:33:27,192 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:33:27,193 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:33:27,199 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:33:28,222 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:33:28,223 INFO spawned: 'nginx' with pid 11
+2025-02-12 12:33:28,227 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:33:30,232 INFO spawned: 'nginx' with pid 12
+2025-02-12 12:33:30,237 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:33:33,251 INFO spawned: 'nginx' with pid 13
+2025-02-12 12:33:33,256 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:33:34,261 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:35:27,779 WARN received SIGQUIT indicating exit request
+2025-02-12 12:35:27,782 INFO waiting for php-fpm to die
+2025-02-12 12:35:28,815 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:36:10,754 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:36:10,758 INFO supervisord started with pid 1
+2025-02-12 12:36:11,761 INFO spawned: 'php-fpm' with pid 6
+2025-02-12 12:36:11,763 INFO spawned: 'nginx' with pid 7
+2025-02-12 12:36:11,767 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:36:12,791 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:36:12,792 INFO spawned: 'nginx' with pid 10
+2025-02-12 12:36:12,796 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:36:14,798 INFO spawned: 'nginx' with pid 11
+2025-02-12 12:36:14,804 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:36:17,810 INFO spawned: 'nginx' with pid 12
+2025-02-12 12:36:17,813 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:36:18,818 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:37:37,146 WARN received SIGQUIT indicating exit request
+2025-02-12 12:37:37,152 INFO waiting for php-fpm to die
+2025-02-12 12:37:38,181 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:37:41,621 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:37:41,624 INFO supervisord started with pid 1
+2025-02-12 12:37:42,630 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:37:42,635 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:37:42,641 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:37:43,669 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:37:43,690 INFO spawned: 'nginx' with pid 11
+2025-02-12 12:37:43,701 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:37:45,715 INFO spawned: 'nginx' with pid 12
+2025-02-12 12:37:45,726 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:37:48,741 INFO spawned: 'nginx' with pid 13
+2025-02-12 12:37:48,751 WARN exited: nginx (exit status 1; not expected)
+2025-02-12 12:37:49,754 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2025-02-12 12:38:02,815 WARN received SIGQUIT indicating exit request
+2025-02-12 12:38:02,817 INFO waiting for php-fpm to die
+2025-02-12 12:38:03,843 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:38:32,169 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:38:32,172 INFO supervisord started with pid 1
+2025-02-12 12:38:33,174 INFO spawned: 'php-fpm' with pid 6
+2025-02-12 12:38:33,176 INFO spawned: 'nginx' with pid 7
+2025-02-12 12:38:34,200 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:38:34,200 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:39:09,268 WARN received SIGQUIT indicating exit request
+2025-02-12 12:39:09,271 INFO waiting for php-fpm, nginx to die
+2025-02-12 12:39:09,284 INFO stopped: nginx (exit status 0)
+2025-02-12 12:39:09,292 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:39:33,053 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:39:33,057 INFO supervisord started with pid 1
+2025-02-12 12:39:34,059 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:39:34,061 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:39:34,063 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:39:34,692 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:39:35,697 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:39:35,703 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:39:35,704 INFO spawned: 'horizon' with pid 24
+2025-02-12 12:39:36,014 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:39:38,020 INFO spawned: 'horizon' with pid 27
+2025-02-12 12:39:38,590 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:39:41,600 INFO spawned: 'horizon' with pid 30
+2025-02-12 12:39:41,840 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:39:42,845 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:41:37,336 INFO reaped unknown pid 58 (exit status 0)
+2025-02-12 12:45:24,381 WARN received SIGQUIT indicating exit request
+2025-02-12 12:45:24,385 INFO waiting for php-fpm, nginx to die
+2025-02-12 12:45:25,407 INFO stopped: nginx (exit status 0)
+2025-02-12 12:45:25,419 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:45:59,354 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:45:59,356 INFO supervisord started with pid 1
+2025-02-12 12:46:00,358 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:46:00,360 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:46:00,362 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:46:00,943 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:46:01,945 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:46:01,945 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:46:01,946 INFO spawned: 'horizon' with pid 24
+2025-02-12 12:46:02,242 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:46:04,245 INFO spawned: 'horizon' with pid 27
+2025-02-12 12:46:04,828 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:46:07,840 INFO spawned: 'horizon' with pid 30
+2025-02-12 12:46:08,074 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:46:09,075 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:46:24,133 INFO reaped unknown pid 45 (exit status 0)
+2025-02-12 12:46:57,270 INFO reaped unknown pid 67 (exit status 0)
+2025-02-12 12:47:34,432 WARN received SIGQUIT indicating exit request
+2025-02-12 12:47:34,435 INFO waiting for php-fpm, nginx to die
+2025-02-12 12:47:35,456 INFO stopped: nginx (exit status 0)
+2025-02-12 12:47:35,463 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:47:39,058 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:47:39,060 INFO supervisord started with pid 1
+2025-02-12 12:47:40,064 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:47:40,065 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:47:40,068 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:47:40,333 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:47:41,341 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:47:41,344 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:47:41,350 INFO spawned: 'horizon' with pid 24
+2025-02-12 12:47:41,628 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:47:43,635 INFO spawned: 'horizon' with pid 27
+2025-02-12 12:47:43,921 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:47:46,940 INFO spawned: 'horizon' with pid 30
+2025-02-12 12:47:47,230 WARN exited: horizon (exit status 1; not expected)
+2025-02-12 12:47:48,233 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 12:49:44,732 WARN received SIGQUIT indicating exit request
+2025-02-12 12:49:44,742 INFO waiting for php-fpm, nginx to die
+2025-02-12 12:49:45,763 INFO stopped: nginx (exit status 0)
+2025-02-12 12:49:45,768 INFO stopped: php-fpm (exit status 0)
+2025-02-12 12:50:32,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 12:50:32,138 INFO supervisord started with pid 1
+2025-02-12 12:50:33,140 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 12:50:33,142 INFO spawned: 'nginx' with pid 8
+2025-02-12 12:50:33,147 INFO spawned: 'horizon' with pid 9
+2025-02-12 12:50:34,656 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:50:34,657 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 12:50:34,658 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
