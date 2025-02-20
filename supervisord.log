@@ -196,3 +196,460 @@
 2025-02-12 12:50:34,656 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-02-12 12:50:34,657 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-02-12 12:50:34,658 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:24:03,729 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 13:24:03,744 INFO supervisord started with pid 1
+2025-02-12 13:24:04,749 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 13:24:04,754 INFO spawned: 'nginx' with pid 8
+2025-02-12 13:24:04,759 INFO spawned: 'horizon' with pid 9
+2025-02-12 13:24:04,807 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:24:05,810 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:24:05,811 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:24:05,813 INFO spawned: 'horizon' with pid 20
+2025-02-12 13:24:05,882 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:24:07,889 INFO spawned: 'horizon' with pid 21
+2025-02-12 13:24:07,936 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:24:10,943 INFO spawned: 'horizon' with pid 22
+2025-02-12 13:24:10,985 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:24:11,988 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 13:38:55,198 WARN received SIGQUIT indicating exit request
+2025-02-12 13:38:55,200 INFO waiting for php-fpm, nginx to die
+2025-02-12 13:38:56,209 INFO stopped: nginx (exit status 0)
+2025-02-12 13:38:56,217 INFO stopped: php-fpm (exit status 0)
+2025-02-12 13:40:51,015 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 13:40:51,027 INFO supervisord started with pid 1
+2025-02-12 13:40:52,036 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 13:40:52,051 INFO spawned: 'nginx' with pid 8
+2025-02-12 13:40:52,075 INFO spawned: 'horizon' with pid 9
+2025-02-12 13:40:52,279 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:40:53,297 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:40:53,298 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:40:53,303 INFO spawned: 'horizon' with pid 20
+2025-02-12 13:40:53,399 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:40:56,395 INFO spawned: 'horizon' with pid 21
+2025-02-12 13:40:56,447 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:40:59,478 INFO spawned: 'horizon' with pid 22
+2025-02-12 13:40:59,538 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:41:00,544 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 13:44:51,086 WARN received SIGQUIT indicating exit request
+2025-02-12 13:44:51,087 INFO waiting for php-fpm, nginx to die
+2025-02-12 13:44:52,104 INFO stopped: nginx (exit status 0)
+2025-02-12 13:44:52,112 INFO stopped: php-fpm (exit status 0)
+2025-02-12 13:45:01,676 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 13:45:01,693 INFO supervisord started with pid 1
+2025-02-12 13:45:02,704 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 13:45:02,713 INFO spawned: 'nginx' with pid 8
+2025-02-12 13:45:02,723 INFO spawned: 'horizon' with pid 9
+2025-02-12 13:45:02,832 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:45:03,838 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:45:03,838 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:45:03,841 INFO spawned: 'horizon' with pid 20
+2025-02-12 13:45:03,896 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:45:05,904 INFO spawned: 'horizon' with pid 21
+2025-02-12 13:45:05,963 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:45:09,180 INFO spawned: 'horizon' with pid 22
+2025-02-12 13:45:09,241 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:45:10,248 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 13:49:45,351 WARN received SIGQUIT indicating exit request
+2025-02-12 13:49:45,352 INFO waiting for php-fpm, nginx to die
+2025-02-12 13:49:46,369 INFO stopped: nginx (exit status 0)
+2025-02-12 13:49:47,381 INFO stopped: php-fpm (exit status 0)
+2025-02-12 13:52:05,019 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 13:52:05,029 INFO supervisord started with pid 1
+2025-02-12 13:52:06,039 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 13:52:06,055 INFO spawned: 'nginx' with pid 8
+2025-02-12 13:52:06,068 INFO spawned: 'horizon' with pid 9
+2025-02-12 13:52:06,145 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:52:07,148 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:52:07,148 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:52:07,151 INFO spawned: 'horizon' with pid 20
+2025-02-12 13:52:07,195 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:52:09,202 INFO spawned: 'horizon' with pid 21
+2025-02-12 13:52:09,241 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:52:12,254 INFO spawned: 'horizon' with pid 22
+2025-02-12 13:52:12,293 WARN exited: horizon (exit status 255; not expected)
+2025-02-12 13:52:13,298 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-02-12 13:57:35,223 INFO reaped unknown pid 54 (exit status 0)
+2025-02-12 13:57:59,298 WARN received SIGQUIT indicating exit request
+2025-02-12 13:57:59,299 INFO waiting for php-fpm, nginx to die
+2025-02-12 13:58:00,304 INFO stopped: nginx (exit status 0)
+2025-02-12 13:58:00,309 INFO stopped: php-fpm (exit status 0)
+2025-02-12 13:58:01,591 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 13:58:01,601 INFO supervisord started with pid 1
+2025-02-12 13:58:02,622 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 13:58:02,625 INFO spawned: 'nginx' with pid 8
+2025-02-12 13:58:02,629 INFO spawned: 'horizon' with pid 9
+2025-02-12 13:58:03,657 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:58:03,657 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:58:03,658 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 13:59:58,054 WARN received SIGQUIT indicating exit request
+2025-02-12 13:59:58,055 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 13:59:59,066 INFO stopped: horizon (exit status 0)
+2025-02-12 13:59:59,073 INFO stopped: nginx (exit status 0)
+2025-02-12 13:59:59,094 INFO stopped: php-fpm (exit status 0)
+2025-02-12 14:00:08,650 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 14:00:08,661 INFO supervisord started with pid 1
+2025-02-12 14:00:09,668 INFO spawned: 'php-fpm' with pid 6
+2025-02-12 14:00:09,674 INFO spawned: 'nginx' with pid 7
+2025-02-12 14:00:09,682 INFO spawned: 'horizon' with pid 8
+2025-02-12 14:00:10,747 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:00:10,748 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:00:10,748 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:02:48,463 INFO exited: nginx (exit status 0; expected)
+2025-02-12 14:02:49,471 INFO spawned: 'nginx' with pid 77
+2025-02-12 14:02:50,486 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:03:15,944 WARN received SIGQUIT indicating exit request
+2025-02-12 14:03:15,945 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 14:03:18,951 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 14:03:20,956 INFO stopped: horizon (exit status 0)
+2025-02-12 14:03:20,959 INFO stopped: nginx (exit status 0)
+2025-02-12 14:03:20,965 INFO stopped: php-fpm (exit status 0)
+2025-02-12 14:03:22,851 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 14:03:22,860 INFO supervisord started with pid 1
+2025-02-12 14:03:23,865 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 14:03:23,868 INFO spawned: 'nginx' with pid 8
+2025-02-12 14:03:23,873 INFO spawned: 'horizon' with pid 9
+2025-02-12 14:03:24,904 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:03:24,904 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:03:24,905 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:03:55,594 WARN received SIGQUIT indicating exit request
+2025-02-12 14:03:55,596 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 14:03:57,606 INFO stopped: horizon (exit status 0)
+2025-02-12 14:03:57,611 INFO stopped: nginx (exit status 0)
+2025-02-12 14:03:57,629 INFO stopped: php-fpm (exit status 0)
+2025-02-12 14:06:17,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 14:06:17,275 INFO supervisord started with pid 1
+2025-02-12 14:06:18,285 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 14:06:18,292 INFO spawned: 'nginx' with pid 8
+2025-02-12 14:06:18,301 INFO spawned: 'horizon' with pid 9
+2025-02-12 14:06:19,380 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:06:19,382 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:06:19,384 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:14:33,558 WARN received SIGQUIT indicating exit request
+2025-02-12 14:14:33,560 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 14:14:34,618 INFO stopped: horizon (exit status 0)
+2025-02-12 14:14:34,622 INFO stopped: nginx (exit status 0)
+2025-02-12 14:14:34,630 INFO stopped: php-fpm (exit status 0)
+2025-02-12 14:14:43,970 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-12 14:14:43,975 INFO supervisord started with pid 1
+2025-02-12 14:14:44,984 INFO spawned: 'php-fpm' with pid 7
+2025-02-12 14:14:44,990 INFO spawned: 'nginx' with pid 8
+2025-02-12 14:14:44,995 INFO spawned: 'horizon' with pid 9
+2025-02-12 14:14:46,040 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:14:46,040 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 14:14:46,040 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-12 16:13:27,395 WARN received SIGQUIT indicating exit request
+2025-02-12 16:13:27,404 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-12 16:13:29,554 INFO stopped: horizon (exit status 0)
+2025-02-12 16:13:29,575 INFO stopped: nginx (exit status 0)
+2025-02-12 16:13:29,630 INFO stopped: php-fpm (exit status 0)
+2025-02-13 08:13:40,284 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 08:13:40,292 INFO supervisord started with pid 1
+2025-02-13 08:13:41,298 INFO spawned: 'php-fpm' with pid 8
+2025-02-13 08:13:41,302 INFO spawned: 'nginx' with pid 9
+2025-02-13 08:13:41,308 INFO spawned: 'horizon' with pid 10
+2025-02-13 08:13:42,485 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 08:13:42,485 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 08:13:42,486 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 09:37:35,013 WARN received SIGQUIT indicating exit request
+2025-02-13 09:37:35,062 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 09:37:38,078 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 09:37:38,799 INFO stopped: horizon (exit status 0)
+2025-02-13 09:37:38,867 INFO stopped: nginx (exit status 0)
+2025-02-13 09:37:39,022 INFO stopped: php-fpm (exit status 0)
+2025-02-13 10:43:06,655 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 10:43:06,693 INFO supervisord started with pid 1
+2025-02-13 10:43:07,723 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 10:43:07,730 INFO spawned: 'nginx' with pid 8
+2025-02-13 10:43:07,740 INFO spawned: 'horizon' with pid 9
+2025-02-13 10:43:09,025 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 10:43:09,026 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 10:43:09,027 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:03:12,793 INFO reaped unknown pid 183 (exit status 0)
+2025-02-13 11:08:56,029 INFO reaped unknown pid 240 (exit status 0)
+2025-02-13 11:21:29,905 INFO reaped unknown pid 6683 (terminated by SIGINT)
+2025-02-13 11:23:51,985 WARN received SIGQUIT indicating exit request
+2025-02-13 11:23:52,000 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:23:53,637 INFO stopped: horizon (exit status 0)
+2025-02-13 11:23:53,674 INFO stopped: nginx (exit status 0)
+2025-02-13 11:23:53,738 INFO stopped: php-fpm (exit status 0)
+2025-02-13 11:24:40,433 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 11:24:40,470 INFO supervisord started with pid 1
+2025-02-13 11:24:41,511 INFO spawned: 'php-fpm' with pid 8
+2025-02-13 11:24:41,529 INFO spawned: 'nginx' with pid 9
+2025-02-13 11:24:41,557 INFO spawned: 'horizon' with pid 10
+2025-02-13 11:24:42,871 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:24:42,873 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:24:42,876 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:37:11,876 WARN received SIGQUIT indicating exit request
+2025-02-13 11:37:11,883 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:37:13,938 INFO stopped: horizon (exit status 0)
+2025-02-13 11:37:13,962 INFO stopped: nginx (exit status 0)
+2025-02-13 11:37:14,021 INFO stopped: php-fpm (exit status 0)
+2025-02-13 11:37:58,510 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 11:37:58,530 INFO supervisord started with pid 1
+2025-02-13 11:37:59,542 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 11:37:59,561 INFO spawned: 'nginx' with pid 8
+2025-02-13 11:37:59,593 INFO spawned: 'horizon' with pid 9
+2025-02-13 11:38:00,848 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:38:00,850 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:38:00,851 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:39:10,986 WARN received SIGQUIT indicating exit request
+2025-02-13 11:39:10,998 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:39:14,022 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:39:15,804 INFO stopped: horizon (exit status 0)
+2025-02-13 11:39:15,816 INFO stopped: nginx (exit status 0)
+2025-02-13 11:39:15,877 INFO stopped: php-fpm (exit status 0)
+2025-02-13 11:39:19,296 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 11:39:19,416 INFO supervisord started with pid 1
+2025-02-13 11:39:20,426 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 11:39:20,437 INFO spawned: 'nginx' with pid 8
+2025-02-13 11:39:20,446 INFO spawned: 'horizon' with pid 9
+2025-02-13 11:39:21,565 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:39:21,567 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:39:21,569 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:45:28,369 WARN received SIGQUIT indicating exit request
+2025-02-13 11:45:28,372 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:45:30,403 INFO stopped: horizon (exit status 0)
+2025-02-13 11:45:30,415 INFO stopped: nginx (exit status 0)
+2025-02-13 11:45:30,437 INFO stopped: php-fpm (exit status 0)
+2025-02-13 11:45:56,011 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 11:45:56,036 INFO supervisord started with pid 1
+2025-02-13 11:45:57,052 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 11:45:57,071 INFO spawned: 'nginx' with pid 8
+2025-02-13 11:45:57,080 INFO spawned: 'horizon' with pid 9
+2025-02-13 11:45:58,201 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:45:58,203 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:45:58,204 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:49:17,900 WARN received SIGQUIT indicating exit request
+2025-02-13 11:49:17,907 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 11:49:19,942 INFO stopped: horizon (exit status 0)
+2025-02-13 11:49:19,960 INFO stopped: nginx (exit status 0)
+2025-02-13 11:49:19,993 INFO stopped: php-fpm (exit status 0)
+2025-02-13 11:49:29,241 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 11:49:29,286 INFO supervisord started with pid 1
+2025-02-13 11:49:30,312 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 11:49:30,338 INFO spawned: 'nginx' with pid 8
+2025-02-13 11:49:30,366 INFO spawned: 'horizon' with pid 9
+2025-02-13 11:49:31,843 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:49:31,845 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 11:49:31,846 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 12:00:56,818 INFO reaped unknown pid 6388 (exit status 0)
+2025-02-13 12:47:29,280 INFO reaped unknown pid 6437 (exit status 0)
+2025-02-13 13:26:04,051 INFO reaped unknown pid 6464 (terminated by SIGINT)
+2025-02-13 14:24:34,696 INFO reaped unknown pid 6521 (terminated by SIGINT)
+2025-02-13 14:24:47,279 WARN received SIGQUIT indicating exit request
+2025-02-13 14:24:47,297 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 14:24:50,320 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 14:24:50,886 INFO stopped: horizon (exit status 0)
+2025-02-13 14:24:51,098 INFO stopped: nginx (exit status 0)
+2025-02-13 14:24:52,670 INFO stopped: php-fpm (exit status 0)
+2025-02-13 14:39:02,432 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 14:39:02,442 INFO supervisord started with pid 1
+2025-02-13 14:39:03,447 INFO spawned: 'php-fpm' with pid 8
+2025-02-13 14:39:03,457 INFO spawned: 'nginx' with pid 9
+2025-02-13 14:39:03,469 INFO spawned: 'horizon' with pid 10
+2025-02-13 14:39:04,805 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 14:39:04,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 14:39:04,806 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 15:49:19,097 INFO reaped unknown pid 99 (terminated by SIGINT)
+2025-02-13 15:49:37,979 WARN received SIGQUIT indicating exit request
+2025-02-13 15:49:37,992 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 15:49:40,208 INFO stopped: horizon (exit status 0)
+2025-02-13 15:49:41,233 INFO stopped: nginx (exit status 0)
+2025-02-13 15:49:41,235 INFO waiting for php-fpm to die
+2025-02-13 15:49:41,258 INFO stopped: php-fpm (exit status 0)
+2025-02-13 15:57:46,903 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-13 15:57:46,911 INFO supervisord started with pid 1
+2025-02-13 15:57:47,922 INFO spawned: 'php-fpm' with pid 7
+2025-02-13 15:57:47,945 INFO spawned: 'nginx' with pid 8
+2025-02-13 15:57:47,977 INFO spawned: 'horizon' with pid 9
+2025-02-13 15:57:49,166 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 15:57:49,170 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 15:57:49,181 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-13 16:08:45,703 INFO reaped unknown pid 58 (terminated by SIGINT)
+2025-02-13 16:08:56,186 WARN received SIGQUIT indicating exit request
+2025-02-13 16:08:56,189 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-13 16:08:58,221 INFO stopped: horizon (exit status 0)
+2025-02-13 16:08:58,237 INFO stopped: nginx (exit status 0)
+2025-02-13 16:08:58,282 INFO stopped: php-fpm (exit status 0)
+2025-02-14 08:25:51,949 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-14 08:25:51,959 INFO supervisord started with pid 1
+2025-02-14 08:25:52,963 INFO spawned: 'php-fpm' with pid 7
+2025-02-14 08:25:53,004 INFO spawned: 'nginx' with pid 8
+2025-02-14 08:25:53,046 INFO spawned: 'horizon' with pid 9
+2025-02-14 08:25:54,310 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-14 08:25:54,311 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-14 08:25:54,312 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-14 08:58:38,440 INFO reaped unknown pid 107 (terminated by SIGKILL)
+2025-02-14 08:58:53,539 INFO reaped unknown pid 110 (terminated by SIGKILL)
+2025-02-14 09:05:16,413 INFO reaped unknown pid 122 (terminated by SIGKILL)
+2025-02-14 09:10:56,718 INFO reaped unknown pid 127 (terminated by SIGKILL)
+2025-02-14 10:27:13,550 INFO reaped unknown pid 274 (terminated by SIGKILL)
+2025-02-14 10:27:19,899 INFO reaped unknown pid 277 (terminated by SIGKILL)
+2025-02-14 10:27:19,901 INFO reaped unknown pid 273 (terminated by SIGKILL)
+2025-02-14 10:29:38,604 INFO reaped unknown pid 684 (terminated by SIGKILL)
+2025-02-14 10:29:41,608 INFO reaped unknown pid 689 (terminated by SIGKILL)
+2025-02-14 10:29:45,304 INFO reaped unknown pid 692 (terminated by SIGINT)
+2025-02-14 10:29:45,304 INFO reaped unknown pid 683 (terminated by SIGKILL)
+2025-02-14 10:29:45,305 INFO reaped unknown pid 693 (terminated by SIGINT)
+2025-02-14 10:31:28,182 INFO reaped unknown pid 652 (terminated by SIGINT)
+2025-02-14 10:36:29,649 INFO reaped unknown pid 724 (terminated by SIGINT)
+2025-02-14 10:37:53,057 INFO reaped unknown pid 746 (terminated by SIGKILL)
+2025-02-14 10:37:56,208 INFO reaped unknown pid 751 (terminated by SIGKILL)
+2025-02-14 10:38:03,456 INFO reaped unknown pid 753 (terminated by SIGINT)
+2025-02-14 10:38:03,456 INFO reaped unknown pid 754 (terminated by SIGINT)
+2025-02-14 10:38:03,457 INFO reaped unknown pid 745 (terminated by SIGKILL)
+2025-02-14 10:39:22,479 INFO reaped unknown pid 196 (terminated by SIGKILL)
+2025-02-14 10:39:49,511 INFO reaped unknown pid 258 (terminated by SIGKILL)
+2025-02-14 10:44:50,681 INFO reaped unknown pid 766 (terminated by SIGINT)
+2025-02-14 10:44:50,682 INFO reaped unknown pid 768 (terminated by SIGINT)
+2025-02-14 10:44:50,682 INFO reaped unknown pid 106 (terminated by SIGKILL)
+2025-02-14 10:57:00,832 INFO reaped unknown pid 800 (terminated by SIGINT)
+2025-02-14 11:04:18,489 INFO reaped unknown pid 837 (terminated by SIGKILL)
+2025-02-14 11:15:08,757 INFO reaped unknown pid 840 (terminated by SIGKILL)
+2025-02-14 13:50:02,356 INFO reaped unknown pid 823 (terminated by SIGINT)
+2025-02-14 13:51:09,178 INFO reaped unknown pid 993 (terminated by SIGKILL)
+2025-02-14 13:51:13,184 INFO reaped unknown pid 994 (terminated by SIGKILL)
+2025-02-14 13:51:13,184 INFO reaped unknown pid 992 (terminated by SIGKILL)
+2025-02-14 13:52:46,952 INFO reaped unknown pid 1000 (terminated by SIGKILL)
+2025-02-14 13:52:49,432 INFO reaped unknown pid 1005 (terminated by SIGKILL)
+2025-02-14 13:56:03,256 INFO reaped unknown pid 1009 (terminated by SIGKILL)
+2025-02-14 13:56:05,700 INFO reaped unknown pid 1010 (terminated by SIGKILL)
+2025-02-14 14:03:13,019 INFO reaped unknown pid 861 (terminated by SIGHUP)
+2025-02-14 14:03:13,020 INFO reaped unknown pid 834 (terminated by SIGHUP)
+2025-02-14 14:03:13,020 INFO reaped unknown pid 872 (terminated by SIGHUP)
+2025-02-14 14:03:13,021 INFO reaped unknown pid 836 (terminated by SIGKILL)
+2025-02-14 14:09:10,247 INFO reaped unknown pid 1048 (terminated by SIGKILL)
+2025-02-14 14:09:11,249 INFO reaped unknown pid 1052 (terminated by SIGKILL)
+2025-02-14 14:09:38,478 INFO reaped unknown pid 1055 (terminated by SIGINT)
+2025-02-14 14:09:38,479 INFO reaped unknown pid 1047 (terminated by SIGKILL)
+2025-02-14 14:09:38,479 INFO reaped unknown pid 1058 (terminated by SIGINT)
+2025-02-14 14:14:26,788 INFO reaped unknown pid 1019 (terminated by SIGKILL)
+2025-02-14 14:14:29,159 INFO reaped unknown pid 1022 (terminated by SIGKILL)
+2025-02-14 14:14:29,520 INFO reaped unknown pid 1080 (terminated by SIGKILL)
+2025-02-14 14:15:36,132 INFO reaped unknown pid 1084 (terminated by SIGKILL)
+2025-02-14 14:15:44,543 INFO reaped unknown pid 1087 (terminated by SIGKILL)
+2025-02-14 14:15:45,545 INFO reaped unknown pid 1096 (terminated by SIGKILL)
+2025-02-14 14:24:08,753 INFO reaped unknown pid 1127 (terminated by SIGKILL)
+2025-02-14 14:24:51,197 INFO reaped unknown pid 1128 (terminated by SIGKILL)
+2025-02-14 14:26:23,312 INFO reaped unknown pid 1129 (terminated by SIGKILL)
+2025-02-14 14:26:27,472 INFO reaped unknown pid 1130 (terminated by SIGKILL)
+2025-02-14 14:29:39,264 INFO reaped unknown pid 1132 (terminated by SIGKILL)
+2025-02-14 14:29:48,035 INFO reaped unknown pid 1133 (terminated by SIGKILL)
+2025-02-14 14:30:57,609 INFO reaped unknown pid 1134 (terminated by SIGKILL)
+2025-02-14 14:31:06,170 INFO reaped unknown pid 1135 (terminated by SIGKILL)
+2025-02-14 14:32:41,855 INFO reaped unknown pid 1138 (terminated by SIGKILL)
+2025-02-14 14:32:44,416 INFO reaped unknown pid 1139 (terminated by SIGKILL)
+2025-02-14 14:32:51,139 INFO reaped unknown pid 1141 (terminated by SIGKILL)
+2025-02-14 14:32:53,713 INFO reaped unknown pid 1142 (terminated by SIGKILL)
+2025-02-14 14:32:53,714 INFO reaped unknown pid 1126 (terminated by SIGKILL)
+2025-02-14 14:36:34,127 INFO reaped unknown pid 1100 (terminated by SIGINT)
+2025-02-14 14:36:34,128 INFO reaped unknown pid 1103 (terminated by SIGINT)
+2025-02-14 14:36:34,130 INFO reaped unknown pid 999 (terminated by SIGKILL)
+2025-02-14 14:37:42,698 INFO reaped unknown pid 1159 (terminated by SIGINT)
+2025-02-14 14:37:42,699 INFO reaped unknown pid 1162 (terminated by SIGINT)
+2025-02-14 14:38:21,340 INFO reaped unknown pid 1175 (terminated by SIGKILL)
+2025-02-14 14:38:26,373 INFO reaped unknown pid 1178 (terminated by SIGKILL)
+2025-02-14 14:38:35,578 INFO reaped unknown pid 1179 (terminated by SIGKILL)
+2025-02-14 14:38:38,601 INFO reaped unknown pid 1180 (terminated by SIGKILL)
+2025-02-14 14:40:55,882 INFO reaped unknown pid 1181 (terminated by SIGKILL)
+2025-02-14 14:40:57,926 INFO reaped unknown pid 1182 (terminated by SIGKILL)
+2025-02-14 14:40:58,928 INFO reaped unknown pid 1190 (terminated by SIGKILL)
+2025-02-14 14:41:03,126 INFO reaped unknown pid 1193 (terminated by SIGKILL)
+2025-02-14 14:41:04,128 INFO reaped unknown pid 1196 (terminated by SIGKILL)
+2025-02-14 14:46:08,881 INFO reaped unknown pid 1200 (terminated by SIGKILL)
+2025-02-14 14:46:10,539 INFO reaped unknown pid 1203 (terminated by SIGKILL)
+2025-02-14 14:46:26,389 INFO reaped unknown pid 1215 (terminated by SIGKILL)
+2025-02-14 14:46:27,391 INFO reaped unknown pid 1218 (terminated by SIGKILL)
+2025-02-14 14:46:27,391 INFO reaped unknown pid 1221 (terminated by SIGKILL)
+2025-02-14 14:48:19,904 INFO reaped unknown pid 1224 (terminated by SIGKILL)
+2025-02-14 14:48:24,450 INFO reaped unknown pid 1227 (terminated by SIGKILL)
+2025-02-14 14:48:29,415 INFO reaped unknown pid 1235 (terminated by SIGKILL)
+2025-02-14 14:48:45,398 INFO reaped unknown pid 1236 (terminated by SIGINT)
+2025-02-14 14:48:45,399 INFO reaped unknown pid 1237 (terminated by SIGINT)
+2025-02-14 14:48:45,399 INFO reaped unknown pid 1174 (terminated by SIGKILL)
+2025-02-14 14:49:55,821 INFO reaped unknown pid 1241 (terminated by SIGKILL)
+2025-02-14 14:50:59,665 INFO reaped unknown pid 1242 (terminated by SIGKILL)
+2025-02-14 14:51:02,637 INFO reaped unknown pid 1243 (terminated by SIGKILL)
+2025-02-14 14:51:03,639 INFO reaped unknown pid 1247 (terminated by SIGKILL)
+2025-02-14 14:51:12,801 INFO reaped unknown pid 1250 (terminated by SIGKILL)
+2025-02-14 14:54:20,101 INFO reaped unknown pid 1253 (terminated by SIGKILL)
+2025-02-14 14:54:21,113 INFO reaped unknown pid 1256 (terminated by SIGKILL)
+2025-02-14 14:54:21,242 INFO reaped unknown pid 1260 (terminated by SIGKILL)
+2025-02-14 14:54:22,244 INFO reaped unknown pid 1263 (terminated by SIGKILL)
+2025-02-14 14:54:38,213 INFO reaped unknown pid 1266 (terminated by SIGKILL)
+2025-02-14 14:58:48,949 INFO reaped unknown pid 1269 (terminated by SIGKILL)
+2025-02-14 14:58:50,964 INFO reaped unknown pid 1270 (terminated by SIGKILL)
+2025-02-14 14:58:50,965 INFO reaped unknown pid 1274 (terminated by SIGKILL)
+2025-02-14 14:59:42,646 INFO reaped unknown pid 1277 (terminated by SIGKILL)
+2025-02-14 14:59:44,936 INFO reaped unknown pid 1280 (terminated by SIGKILL)
+2025-02-14 14:59:45,316 INFO reaped unknown pid 1283 (terminated by SIGKILL)
+2025-02-14 14:59:46,318 INFO reaped unknown pid 1286 (terminated by SIGKILL)
+2025-02-14 15:00:33,559 INFO reaped unknown pid 1289 (terminated by SIGKILL)
+2025-02-14 15:00:34,561 INFO reaped unknown pid 1292 (terminated by SIGKILL)
+2025-02-14 15:21:53,231 INFO reaped unknown pid 1301 (terminated by SIGINT)
+2025-02-14 15:21:53,232 INFO reaped unknown pid 1304 (terminated by SIGINT)
+2025-02-14 15:21:53,232 INFO reaped unknown pid 1240 (terminated by SIGKILL)
+2025-02-14 15:28:12,486 INFO reaped unknown pid 1326 (terminated by SIGINT)
+2025-02-14 15:28:12,487 INFO reaped unknown pid 1325 (terminated by SIGKILL)
+2025-02-14 15:28:12,487 INFO reaped unknown pid 1327 (terminated by SIGINT)
+2025-02-14 15:28:14,038 INFO reaped unknown pid 1328 (terminated by SIGINT)
+2025-02-14 15:29:34,770 INFO reaped unknown pid 1316 (terminated by SIGHUP)
+2025-02-14 15:29:34,771 INFO reaped unknown pid 1313 (terminated by SIGHUP)
+2025-02-14 15:29:34,772 INFO reaped unknown pid 1320 (terminated by SIGHUP)
+2025-02-14 15:29:34,773 INFO reaped unknown pid 1318 (terminated by SIGHUP)
+2025-02-14 15:29:34,773 INFO reaped unknown pid 1315 (terminated by SIGKILL)
+2025-02-14 15:29:34,774 INFO reaped unknown pid 1319 (terminated by SIGHUP)
+2025-02-15 11:43:48,002 INFO reaped unknown pid 1343 (terminated by SIGHUP)
+2025-02-15 11:43:48,002 INFO reaped unknown pid 1340 (terminated by SIGHUP)
+2025-02-15 11:43:48,003 INFO reaped unknown pid 1346 (terminated by SIGHUP)
+2025-02-15 11:43:48,003 INFO reaped unknown pid 1344 (terminated by SIGHUP)
+2025-02-15 11:43:48,004 INFO reaped unknown pid 1345 (terminated by SIGHUP)
+2025-02-15 11:43:48,004 INFO reaped unknown pid 1342 (terminated by SIGKILL)
+2025-02-15 11:43:53,299 WARN received SIGQUIT indicating exit request
+2025-02-15 11:43:53,307 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-15 11:43:55,433 INFO stopped: horizon (exit status 0)
+2025-02-15 11:43:55,450 INFO stopped: nginx (exit status 0)
+2025-02-15 11:43:55,466 INFO stopped: php-fpm (exit status 0)
+2025-02-17 08:13:24,591 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-17 08:13:24,657 INFO supervisord started with pid 1
+2025-02-17 08:13:25,664 INFO spawned: 'php-fpm' with pid 7
+2025-02-17 08:13:25,679 INFO spawned: 'nginx' with pid 8
+2025-02-17 08:13:25,706 INFO spawned: 'horizon' with pid 9
+2025-02-17 08:13:27,578 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-17 08:13:27,580 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-17 08:13:27,582 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-17 08:29:35,785 INFO reaped unknown pid 95 (terminated by SIGKILL)
+2025-02-17 08:29:41,569 INFO reaped unknown pid 102 (terminated by SIGKILL)
+2025-02-17 08:29:51,247 INFO reaped unknown pid 103 (terminated by SIGKILL)
+2025-02-17 08:29:52,250 INFO reaped unknown pid 104 (terminated by SIGKILL)
+2025-02-17 15:48:30,408 INFO reaped unknown pid 106 (terminated by SIGKILL)
+2025-02-17 15:48:33,364 INFO reaped unknown pid 107 (terminated by SIGINT)
+2025-02-17 15:48:33,364 INFO reaped unknown pid 116 (terminated by SIGINT)
+2025-02-17 15:48:33,365 INFO reaped unknown pid 94 (terminated by SIGKILL)
+2025-02-18 13:18:23,495 INFO reaped unknown pid 166 (terminated by SIGKILL)
+2025-02-18 13:18:33,519 INFO reaped unknown pid 169 (terminated by SIGKILL)
+2025-02-18 13:18:33,519 INFO reaped unknown pid 165 (terminated by SIGKILL)
+2025-02-18 13:56:23,794 INFO reaped unknown pid 215 (exit status 0)
+2025-02-19 09:33:35,480 INFO reaped unknown pid 292 (terminated by SIGKILL)
+2025-02-19 09:36:53,368 INFO reaped unknown pid 295 (terminated by SIGKILL)
+2025-02-19 09:37:23,187 INFO reaped unknown pid 296 (terminated by SIGKILL)
+2025-02-19 09:37:25,195 INFO reaped unknown pid 321 (terminated by SIGKILL)
+2025-02-19 09:37:25,196 INFO reaped unknown pid 291 (terminated by SIGKILL)
+2025-02-19 10:56:34,145 INFO reaped unknown pid 334 (terminated by SIGKILL)
+2025-02-19 10:56:34,154 INFO reaped unknown pid 333 (terminated by SIGKILL)
+2025-02-20 10:15:40,102 WARN received SIGQUIT indicating exit request
+2025-02-20 10:15:40,224 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-20 10:15:43,245 INFO waiting for php-fpm, nginx, horizon to die
+2025-02-20 10:15:45,836 INFO stopped: horizon (exit status 0)
+2025-02-20 10:15:45,943 INFO stopped: nginx (exit status 0)
+2025-02-20 10:15:47,083 INFO stopped: php-fpm (exit status 0)
+2025-02-20 12:49:52,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-02-20 12:49:52,142 INFO supervisord started with pid 1
+2025-02-20 12:49:53,161 INFO spawned: 'php-fpm' with pid 7
+2025-02-20 12:49:53,206 INFO spawned: 'nginx' with pid 8
+2025-02-20 12:49:53,221 INFO spawned: 'horizon' with pid 9
+2025-02-20 12:49:54,379 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-20 12:49:54,424 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-20 12:49:54,555 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-02-20 12:56:55,233 INFO reaped unknown pid 78 (terminated by SIGKILL)
