@@ -1,0 +1,33 @@
+[90m= [39m[
+    {#5718
+      +"[1mTables_in_richy[22m": "[32mcache[39m",
+    },
+    {#5720
+      +"[1mTables_in_richy[22m": "[32mcache_locks[39m",
+    },
+    {#5721
+      +"[1mTables_in_richy[22m": "[32mcsv_files[39m",
+    },
+    {#5722
+      +"[1mTables_in_richy[22m": "[32mfailed_jobs[39m",
+    },
+    {#5717
+      +"[1mTables_in_richy[22m": "[32mjob_batches[39m",
+    },
+    {#5716
+      +"[1mTables_in_richy[22m": "[32mjobs[39m",
+    },
+    {#5715
+      +"[1mTables_in_richy[22m": "[32mmigrations[39m",
+    },
+    {#5714
+      +"[1mTables_in_richy[22m": "[32mpassword_reset_tokens[39m",
+    },
+    {#5713
+      +"[1mTables_in_richy[22m": "[32msessions[39m",
+    },
+    {#5734
+      +"[1mTables_in_richy[22m": "[32musers[39m",
+    },
+  ]
+

@@ -77,4 +77,19 @@ class ProcessCsvJob implements ShouldQueue
 
         \Log::info("✅ CSV-bestand verwerkt: {$this->filePath}");
     }
+
+    /**
+     * Plan de job om CSV-bestanden te verwerken.
+     */
+
+    //schedule toevoegen
+    public static function schedule()
+    {
+        // Haal alle CSV-bestanden op die uitgepakt zijn maar nog niet verwerkt zijn
+        $files = DB::table('csv_files')->where('is_extracted', 1)->where('is_processed', 0)->get();
+
+        foreach ($files as $file) {
+            dispatch(new ProcessCsvJob($file->original_path));
+        }
+    }
 }

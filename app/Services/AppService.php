@@ -2,12 +2,25 @@
 
 namespace App\Services;
 
+
+use App\Jobs\UnpackCsvJob;
 use App\Services\CsvFiles\Sqlite\SqliteConnectionService;
+use Illuminate\Support\Facades\Storage;
 
 require "CsvFiles/Sqlite/SqliteConnectionService.php";
 
 
-$service = new SqliteConnectionService();
+
+// Geef een dynamische database naam mee
+$databaseName = "example.sqlite"; // 🔄 Pas dit aan naar jouw logica
+$files = Storage::files('csv');
+foreach ($files as $file) {
+    $filename = basename($file);
+    $database = $filename;
+
+    $service = new SqliteConnectionService($database);
+}
+
 
 // Define the columns for the table dynamically
 $columns = [

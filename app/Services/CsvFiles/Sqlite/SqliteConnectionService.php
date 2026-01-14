@@ -2,34 +2,36 @@
 
 namespace App\Services\CsvFiles\Sqlite;
 
+use Illuminate\Support\Facades\Storage;
 use PDO;
 use PDOException;
 use RuntimeException;
-
+use App\Jobs\UnpackCsvJob;
 class SqliteConnectionService
 {
 
+
     protected string $fileLocation;
     protected PDO $connection;
+    public string $database;
 
 
-    public $dbPath = '../../storage/map1/';
-    public $database = "bx.sqlite";
     public $row_data = [
     ['col1' => 'a1', 'col2' => 'b1', 'col3' => 'c1', 'col4' => 'd1'],
     ['col1' => 'a', 'col2' => 'b', 'col3' => 'c', 'col4' => 'd'],
     ['col1' => 'a', 'col2' => 'b', 'col3' => 'c', 'col4' => 'd'],
     ];
 
-    public function __construct()
+    public function __construct(string $database)
     {
+        $this->database = $database;
         $this->connect();
     }
 
     private function connect()
     {
         try {
-            $fullPath = $this->dbPath . $this->database;
+            $fullPath = storage_path('map1/' . $this->database);
             $this->connection = new PDO("sqlite:" . $fullPath);
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "✅ Connected to SQLite database: " . $fullPath . "\n";

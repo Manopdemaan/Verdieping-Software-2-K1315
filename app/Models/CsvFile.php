@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Models; // Add this line
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
 class CsvFile extends Model
 {
     use HasFactory;
@@ -21,16 +26,18 @@ class CsvFile extends Model
         'is_processed',
     ];
 
-    // Zorgt ervoor dat de kolommen als booleans worden behandeld, en null blijft toegestaan
     protected $casts = [
         'is_copied' => 'boolean',
         'is_extracted' => 'boolean',
-        'is_validated' => 'boolean', // ✅ Dit zorgt ervoor dat Laravel dit als een boolean behandelt
+        'is_validated' => 'boolean',
         'is_sqlite' => 'boolean',
         'is_mapped' => 'boolean',
         'is_processed' => 'boolean',
     ];
 
-    // Timestamps uitschakelen
     public $timestamps = false;
+
+    public function getFileName(): string {
+        return $this->local_location;
+    }
 }

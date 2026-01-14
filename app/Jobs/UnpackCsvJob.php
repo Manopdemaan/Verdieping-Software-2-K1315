@@ -2,57 +2,65 @@
 
 namespace App\Jobs;
 
+use App\Services\CsvFiles\Extract\ExtractGzService;
+use App\Services\CsvFiles\Extract\ExtractZipService;
+use App\Models\CsvFile; // Zorg ervoor dat je de juiste namespace gebruikt
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-use App\Jobs\ProcessCsvJob;
 
 class UnpackCsvJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, SerializesModels;
 
-    protected $filePath;
+    protected CsvFile $csvFile;
 
     /**
      * Create a new job instance.
      *
-     * @param string $filePath
+     * @param CsvFile $csvFile
      */
-    public function __construct(string $filePath)
+    public function __construct(CsvFile $csvFile)
     {
-        $this->filePath = $filePath;
+        $this->csvFile = $csvFile;
     }
 
-    /**
-     * Execute the job.
-     */
     public function handle(): void
     {
+        $filePath = $this->csvFile->getFileName(); // Bestandsnaam ophalen
+        $extension = $this->csvFile->extention; // // Extensie ophalen en dit moest naar boven verplaats worden(al gedaan)
+
         // Controleer of het bestand bestaat
-        if (!Storage::exists($this->filePath)) {
-            \Log::error("❌ CSV-bestand niet gevonden: {$this->filePath}");
+        if (!Storage::exists($filePath)) {
+            Log::error("❌ CSV-bestand niet gevonden: {$filePath}");
             return;
         }
 
-        // Markeer bestand als uitgepakt in de database
-        DB::table('csv_files')->updateOrInsert(
-            ['filename' => basename($this->filePath)],
-            [
-                'original_path' => $this->filePath,
-                'size' => Storage::size($this->filePath),
-                'extension' => 'csv',
-                'is_extracted' => 1, // Alleen dit markeren
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]
-        );
+        if ($extension === 'zip') {
+            $extractService = new ExtractZipService($this->csvFile);
+            $extractService->extract();
+        } elseif ($extension === 'gz') {
+            $extractService = new ExtractGzService($this->csvFile);
+            $extractService->extract();
+        }
 
-        \Log::info("✅ Bestand gemarkeerd als uitgepakt: {$this->filePath}");
+        $this->csvFile->is_extracted = 1;
+        $this->csvFile->is_processed = 0;
+        $this->csvFile->save();
 
-        // Start ProcessCsvJob
-        ProcessCsvJob::dispatch($this->filePath);
+        // ProcessCsvJob aanroepen
+        dispatch(new ProcessCsvJob($this->csvFile));
+    }
+
+    public static function schedule()
+    {
+        // Dit kan nu leeg blijven of verder aangepast worden indien nodig
+        $files = CsvFile::where('is_extracted', 0)->get();
+        foreach ($files as $file) {
+            dispatch(new UnpackCsvJob($file));
+        }
     }
 }
