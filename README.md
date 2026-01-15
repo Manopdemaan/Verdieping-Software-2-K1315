@@ -36,16 +36,16 @@ De databaseverbinding wordt ingesteld via het `.env`-bestand.
 Voorbeeld:
 env
 APP_ENV=local
-APP_KEY=base64:/0yQgmazfLvc1wl/COpKSC8hAVBsj4NpJnvE+2e92LQ=
+APP_KEY=
 APP_DEBUG=true
 APP_URL=http://localhost:9003
 
 DB_CONNECTION=mysql
 DB_HOST=mariadb
-DB_PORT=33063
-DB_DATABASE=interns
-DB_USERNAME=root
-DB_PASSWORD=example
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
 
 
 
